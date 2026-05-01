@@ -34,7 +34,7 @@ If you have downloaded the packaged `.exe` file from the `dist/` folder, **no in
 
 ---
 
-## 📸 Reference Template: Tested Configurations
+## 📸 Reference Template: Tested Configurations (original image in: imgs/harris1.png)
 
 *Use this reference chart to find optimal starting parameters based on the type of satellite imagery you are analyzing.*
 
