@@ -38,8 +38,6 @@ If you have downloaded the packaged `.exe` file from the `dist/` folder, **no in
 
 *Use this reference chart to find optimal starting parameters based on the type of satellite imagery you are analyzing.*
 
-| Sample Image | Scenario Description | Optimal Parameters |
-| :--- | :--- | :--- |
-| `[Insert Image Here]` | **High-Density Urban / Buildings**<br>Lots of sharp, high-contrast right angles. High noise potential from complex rooftops. | **Harris k:** `0.05`<br>**SI Threshold:** `0.04` (Stricter)<br>**DoG Mask:** `0.10`<br>**NMS Radius:** `15` |
-| `[Insert Image Here]` | **Faint Agricultural Boundaries**<br>Low contrast, blurry edges separating soil and crops. Heavy vegetation texture. | **Harris k:** `0.04`<br>**SI Threshold:** `0.015` (Lenient)<br>**DoG Mask:** `0.05`<br>**NMS Radius:** `8` |
-| `[Insert Image Here]` | **Low-Resolution / Blurry Sensor**<br>Simulated or actual low GSD imagery with heavy aliasing. | **Harris k:** `0.05`<br>**Lo-Res Thresh:** `0.06`<br>**NMS Radius:** `5`<br>**Num Scales:** `4` |
+| Sample Image | Optimal Parameters |
+| :--- | :--- |
+| <img src="imgs/harris_result_img.jpeg" width="1000"> | **Harris k:** `0.05`<br>**Std Hi-Res Threshold:** `0.015`<br>**Std Lo-Res Threshold:** `0.05` (Strict)<br>**SI Hi-Res Threshold:** `0.06`<br>**SI Lo-Res Threshold:** `0.07` <br>**Lo-Res Scale Factor:** `0.25` <br>**NMS Radius:** `12`<br>**Number of Scales:** `5`|
