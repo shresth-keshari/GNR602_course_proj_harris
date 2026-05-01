@@ -1,3 +1,5 @@
+Project submission for GNR602 by: Shresth Keshari(23b2243) and K.HimaVarsha (23b2226)
+
 # 🛰️ Satellite Image Analysis: Harris Corner Detection
 
 This repository contains a standalone desktop application developed for advanced satellite image processing. It acts as a dual-pipeline tool that compares Standard Harris Corner Detection against a custom Scale-Invariant Harris approach (featuring Morphological Gradient Enhancement and DoG Structural Masking) to find robust corners across varying satellite resolutions.
